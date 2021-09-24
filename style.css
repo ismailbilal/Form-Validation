@@ -152,3 +152,25 @@ span{
     background-position: center;
     height: 65%;
 }
+
+.text{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+@media (max-width: 900px) {
+    .container{
+        flex-direction: column;
+    }
+    form,
+    .content{
+        width: 100%;
+    }
+    .btn{
+        flex-direction: column;
+    }
+    .image{
+        height: 70vh;
+    }
+}
